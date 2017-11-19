@@ -1,3 +1,4 @@
+@Library('my-test-shared-libraries') _
 class GroovyPrintExample {
    static void main(String[] args) {
       print "Hello World"
