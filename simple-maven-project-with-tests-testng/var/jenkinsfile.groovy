@@ -4,7 +4,6 @@ node {
     // sh ("git checkout master && git pull origin master")
 
     stage ('start') {
-        git ('https://github.com/santhosh63/simple-maven-project-with-tests')
         // Get the maven tool.
         // ** NOTE: This 'M3' maven tool must be configured
         // **       in the global configuration
