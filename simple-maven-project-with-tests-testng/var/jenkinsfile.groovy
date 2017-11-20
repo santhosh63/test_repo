@@ -1,4 +1,3 @@
-@Library('my-test-shared-libraries') _
 node {
    def mvnHome
     // checkout scm
