@@ -1,5 +1,6 @@
 node {
    def mvnHome
+    cd simple-maven-project-with-tests-testing
     checkout scm
     // sh ("git checkout master && git pull origin master")
 
