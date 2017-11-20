@@ -1,6 +1,6 @@
 node {
    def mvnHome
-    // checkout scm
+    checkout scm
     // sh ("git checkout master && git pull origin master")
 
     stage ('start') {
